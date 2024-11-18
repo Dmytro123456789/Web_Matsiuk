@@ -1,0 +1,102 @@
+table{
+    border-radius: 25px;
+    font-family: system-ui;
+    width: 800px;
+    border-collapse: collapse;
+}
+.title{
+    background-color: #3e7db9;
+    color: white;
+    align-items: center;
+}
+button{
+    background-color: #3e7db9;  
+    color: white;
+    border: none;
+    border-radius: 15px;
+    width: 70px;
+    height: 25px;
+    margin-left: 20px;
+}
+.div1{
+    width: 35px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #be443b;
+    color: white;
+    margin-left: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div2{
+    width: 35px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #ae7100;
+    color: white;
+    margin-left: 18px;
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+}
+.div3{
+    width: 35px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #05971f;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 18px;
+}
+.div4{
+    width: 35px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #3e7db9;
+    color: white;
+    align-items: center;
+    margin-left: 18px;
+    display: flex; 
+    justify-content: center;
+}
+.div5{
+    width: 35px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #032668;
+    color: white;
+    align-items: center;
+    margin-left: 18px;
+    display: flex; 
+    justify-content: center;
+}
+.parni{
+    background-color: #d4e5f4;
+}
+.border{
+    border-radius: 15px 0px 0px 0px;
+}
+.border2{
+    border-radius: 0px 15px 0px 0px;
+}
+.grey{
+    color:gray;
+}
+
+/* Зміна фону всього рядка при наведенні на будь-яку його частину */
+tr:hover {
+    background-color: #c6defe;
+}
+
+/* Перекриваємо стандартний фон для td, щоб він змінився при наведенні на весь рядок */
+td {
+    transition: background-color 0.3s ease;
+}
+
+/* Додатково: зробити зміни на дочірні td при наведенні на tr */
+tr:hover td {
+    background-color: #c6defe; /* колір для всіх td */
+}

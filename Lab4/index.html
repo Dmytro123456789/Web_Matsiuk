@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Галерея зображень</h2>
+    <p>Натискайте на зображення, щоб побачити велике зображення:</p>
+
+    <div class="gallery">
+        <input type="radio" name="image" id="img1" checked>
+        <input type="radio" name="image" id="img2">
+        <input type="radio" name="image" id="img3">
+        <input type="radio" name="image" id="img4">
+
+        <div class="big-image-container">
+            <img src="images/big_picture_1.jpg" alt="Nature" class="big-image" id="big1">
+            <img src="images/big_picture_2.jpg" alt="Snow" class="big-image" id="big2">
+            <img src="images/big_picture_3.jpg" alt="Mountains" class="big-image" id="big3">
+            <img src="images/big_picture_4.jpg" alt="Lights" class="big-image" id="big4">
+        </div>
+
+        <div class="thumbnails">
+            <label for="img1"><img src="images/small_picture_1.jpg" alt="Nature"></label>
+            <label for="img2"><img src="images/small_picture_2.jpg" alt="Snow"></label>
+            <label for="img3"><img src="images/small_picture_3.jpg" alt="Mountains"></label>
+            <label for="img4"><img src="images/small_picture_4.jpg" alt="Lights"></label>
+        </div>
+    </div>
+</body>
+</html>

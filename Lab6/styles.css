@@ -1,0 +1,73 @@
+/* Загальні стилі для тіла */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+/* Контейнер для всіх планів */
+.subscription-plans {
+    display: flex;
+}
+
+/* Стилі для кожного плану */
+.plan {
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    transition: all 0.3s ease; /* Плавний перехід для розміру */
+    box-sizing: border-box;
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* Текст в плані */
+.plan h3 {
+    margin: 0;
+    font-size: 24px;
+    margin-top: 25px;
+}
+
+/* Збільшення розміру при наведенні */
+.plan:hover {
+    transform: scale(1.15); /* Збільшуємо блок */
+    z-index: 1; /* Переміщаємо блок на передній план */
+}
+.line{
+    width: 250px;
+    height: 4px;
+    margin-top: 10px;
+
+}
+.prize{
+    font-size: 50px;
+    margin-top: 20px;
+}
+.gray{
+    color: gray;
+    font-size: 20px;
+    margin-top: -55px;
+}
+.info{
+    font-weight: bold;
+    margin-top: 0px;
+}
+.buttons{
+    width: 130px;
+    height: 50px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+

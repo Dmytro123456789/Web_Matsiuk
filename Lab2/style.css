@@ -1,0 +1,81 @@
+/*Sectio1*/
+.ul1{
+    background-color: #d77a7a;
+    width: 400px;
+    padding: 20px;
+    list-style: none;
+    color: white;
+
+}
+.li1{
+    background-color: #c95c5c;
+    margin: 10px 0;
+    padding: 10px;
+}
+.span1{
+    background-color: #a44242;
+    padding: 10px;
+    margin-left: 6px;
+}
+/*Sectio2*/
+.season-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 1.8;
+}
+
+.season-item {
+    margin-top: 10px;
+}
+
+.month-list {
+    list-style: none;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.month-item {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 8px;
+}
+/*Section3*/
+.todo-list {
+    width: 300px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #b3e5fc;
+    border-bottom: 2px solid #ffffff;
+}
+
+.todo-item:nth-child(even) {
+    background-color: #e0f7fa;
+}
+
+.todo-item.completed .task-text {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.delete-btn {
+    color: red;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.checkbox {
+    margin-right: 10px;
+}
